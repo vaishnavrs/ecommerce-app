@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.cart-head{
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.cart-card{
+    border: none;
+    border-bottom: 1px solid rgba(236, 234, 234, 0.619);
+    border-width: 3px;
+    border-radius: 0px;
+    width:80%;
+    margin-left: 70px;
+    padding: 10px;
+
+}
+.cart-card:first-child{
+    border-top: 1px solid rgba(236, 234, 234, 0.619);
+    border-width: 3px;
+}
+
+.cart-card:last-child{
+    border-bottom: 1px solid rgba(236, 234, 234, 0.619);
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.cart-card img{
+    height: 100px;
+    width:100px;
+    background-color:rgba(244, 244, 244, 0.619);
+}
+
+.p-name{
+    text-align: center;
+    margin-top: 35px;
+
+}
+
+
+
+.cart-heads p{
+    text-transform: uppercase;
+    font-size: small;
+    color: rgba(49, 47, 47, 0.619);
+    letter-spacing: 1px;
+}
+.cart-heads p:nth-child(1){
+    margin-left: 86px;
+
+}
+
+.cart-heads p:nth-child(2){
+    margin-left: 390px;
+
+
+}
+
+.cart-heads p:nth-child(3){
+    margin-left: 100px;
+}
+
+.cart-heads p:nth-child(4){
+    margin-left: 100px;
+}
+
+
+.checkout-card{
+    margin-left: 0px;
+    border-radius: 0px;
+    background-color: rgba(244, 244, 244, 0.619);
+    width: 19rem;
+    height: 250px;
+}
+
+.checkout-card.disabled{
+    opacity: .5;
+    pointer-events: none;
+}
+.checkout-btn{
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 0px;
+    width: 84%;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(13, 174, 139, 0.903) 0%);
+}
+.checkout-btn.disabled{
+    opacity: .5;
+    cursor: not-allowed;
+}
+.checkout-card .order-sum{
+    padding: 18px;
+    background-color: rgba(244, 244, 244, 0.619);
+}
+
+.checkout-card .total{
+    padding: 18px;
+    background-color: rgba(222, 215, 215, 0.619);
+}
+
+.address-card {
+    display: none;
+}
+
+.address-card.active {
+    display: block;
+    width: 84%;
+    height: 290px;
+    margin-top: 20px;
+    margin-bottom: 65px;
+    border-radius: 0px;
+
+
+}
+
+.address-card.active input{
+    border-radius: 0px;
+    margin-top: 15px;
+    padding: 5px;
+}
+.address-card.active textarea{
+    margin-bottom: 10px;
+    border-radius: 0px;
+    padding: 5px;
+}
+
+.address-card.active button{
+    border-radius: 0%;
+    width: 100%;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(13, 174, 139, 0.903) 0%);
+}
+
+.address-card .address{
+    padding: 10px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.delete-btn{
+    background-color: white;
+    border: none;
+    margin-left: 10px;
+}
+
+

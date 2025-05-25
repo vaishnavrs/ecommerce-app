@@ -1,0 +1,14 @@
+.login-btn{
+    margin-left: 229px;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(13, 174, 139, 0.903) 0%);
+    border-radius: 15px;
+    padding: 2px;
+    width: 105px;
+}    
+
+.msg{
+    color: red;
+    font-size: smaller;
+}
+
+

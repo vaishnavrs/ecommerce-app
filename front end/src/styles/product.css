@@ -1,0 +1,38 @@
+.product-card{
+    margin-right: 6px;
+    width: 250px;
+    height: 260px;
+    border: none;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+
+}
+
+.product-card:hover{
+    transform: scale(1.05);
+    
+}
+
+.product-card img{
+    width: 180px;
+    height: 170px;
+    margin-left: 10px;
+    border-radius: 0px;
+    background-color: rgb(244, 247, 247);
+}
+.product h5{
+    margin-left: 195px;
+    margin-bottom: 40px;
+}
+
+.product .name{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.product .price{
+    margin-left: 10px;
+    margin-top:-15px;
+    font-size: 12px;
+    font-weight: bold;
+}
