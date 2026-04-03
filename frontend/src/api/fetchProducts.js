@@ -2,7 +2,7 @@ import axios from "axios"
 
 
 export const fetchProduct = async(page)=>{
-    const API_URL = `http://localhost:8000/customer/products/?page=${page}`
+    const API_URL = `http://3.27.82.44:8000/customer/products/?page=${page}`
     const response = await axios.get(API_URL)
     return response.data
 }
@@ -11,7 +11,7 @@ export const fetchProduct = async(page)=>{
 
 
 export const fetchCategory = async () => {
-    const API_URL = "http://localhost:8000/customer/category/"
+    const API_URL = "http://3.27.82.44:8000/customer/category/"
     const response = await axios.get(API_URL)
     return response.data
     
@@ -19,7 +19,7 @@ export const fetchCategory = async () => {
 
 
 export const addToCart = async (id,token)=>{
-    const API_URL = "http://localhost:8000/customer/addtocart"
+    const API_URL = "http://3.27.82.44:8000/customer/addtocart"
     try {
         const response = await axios.post(`${API_URL}/${id}/`,null,{
         headers :{
@@ -42,7 +42,7 @@ export const addToCart = async (id,token)=>{
 
 
 export const fetchCart = async(token)=>{
-    const API_URL = "http://localhost:8000/customer/cart/"
+    const API_URL = "http://3.27.82.44:8000/customer/cart/"
     try{
         const response = await axios.get(`${API_URL}`,{
             headers :{
@@ -65,7 +65,7 @@ export const fetchCart = async(token)=>{
 
 
 export const removeCart = async(cart_id)=>{
-    const API_URL = "http://localhost:8000/customer/remove-cart/"
+    const API_URL = "http://3.27.82.44:8000/customer/remove-cart/"
     try {
         const response = await axios.post(`${API_URL}`,{cart_id},{
             headers:{
