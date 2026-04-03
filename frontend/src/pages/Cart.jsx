@@ -56,7 +56,7 @@ const handlePayment = async () => {
         alert("Please enter delivery address and phone number.");
         return;
     }
-    const API_URL = "http://localhost:8000/customer/start-payment/";
+    const API_URL = "http://3.27.82.44:8000/customer/start-payment/";
 
     try {
         const token = localStorage.getItem('token');
@@ -79,7 +79,7 @@ const handlePayment = async () => {
             order_id:razorpay_order_id,
             handler: async function (response) {
                 try {
-                    await axios.post("http://localhost:8000/customer/verify-payment/", {
+                    await axios.post("http://3.27.82.44:8000/customer/verify-payment/", {
                         razorpay_order_id: response.razorpay_order_id,
                         razorpay_payment_id: response.razorpay_payment_id,
                         razorpay_signature: response.razorpay_signature,
@@ -165,7 +165,7 @@ const handlePayment = async () => {
                         <Card.Body  className='row'>
                             <div className="col-6">
                                 <div className='d-flex'>
-                                    <img src={`http://localhost:8000${item.product.product_image}`} alt=""/>
+                                    <img src={`http://3.27.82.44:8000${item.product.product_image}`} alt=""/>
                                     <p className='p-name'>{item.product.product_name}</p>
                                 </div>
                             </div>

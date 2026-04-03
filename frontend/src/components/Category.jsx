@@ -47,7 +47,7 @@ function Category({category,}) {
                     visibleCategories.map((item)=>{
                       return(
                           <Card key={item.id} className='cat-card'>
-                            <Card.Img  src={`http://localhost:8000/${item.icon}`}/>
+                            <Card.Img  src={`http://3.27.82.44:8000/${item.icon}`}/>
                               <p>{item.name}</p>
                           </Card>
                       )
