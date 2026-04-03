@@ -131,6 +131,7 @@ AUTH_USER_MODEL = 'accounts.Customer'
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
+    'http://3.27.82.44:3000/'
 ]
 CORS_ALLOW_CREDENTIALS = True
 
