@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-          <Home />
+          <Home/>
       </BrowserRouter>
     </div>
   );
